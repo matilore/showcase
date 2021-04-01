@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import GlobalStyle from '../globalStyles';
+import Layout from '../components/layout'
 
 import "@fontsource/permanent-marker" // Defaults to weight 400.
 
@@ -22,12 +22,13 @@ const Title = styled.h1`
 
 
 const IndexPage = () => (
-  <Main>
-    <GlobalStyle />
-    <Title>
-    COMING SOON
-    </Title>
-  </Main>
+  <Layout>
+    <Main>
+      <Title>
+      COMING SOON
+      </Title>
+    </Main>
+  </Layout>
 )
 
 export default IndexPage
