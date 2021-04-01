@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import Layout from '../components/layout'
 
-import "@fontsource/permanent-marker" // Defaults to weight 400.
 
 
 
@@ -17,7 +16,6 @@ const Main = styled.div`
 
 const Title = styled.h1`
   color: white;
-  font-family: Permanent Marker, cursive;
 `
 
 
