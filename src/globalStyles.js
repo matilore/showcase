@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
+import 'typeface-permanent-marker'
+
 
 const GlobalStyle = createGlobalStyle`
   body {
