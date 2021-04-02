@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
-import 'typeface-permanent-marker'
 
 
 const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker');
   body {
     margin: 0;
     padding: 0;
